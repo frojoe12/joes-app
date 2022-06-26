@@ -16,7 +16,7 @@ const Word = () => {
     const [word,setWord] = useState("....."); 
     return (
         <div>
-            {word}
+            The Random name is <strong>{word}</strong>
         </div>
     )
 }
