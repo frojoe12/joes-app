@@ -8,7 +8,6 @@ const Word = () => {
         fetch(WORD_URL)
             .then(response => {return response.json()})
             .then(data => {
-                console.log(data)
                 setWord(data.results[0].name.last)
             })
         
@@ -19,7 +18,6 @@ const Word = () => {
         fetch(WORD_URL)
             .then(response => {return response.json()})
             .then(data => {
-                console.log(data)
                 setWord(data.results[0].name.last)
             })
     }
